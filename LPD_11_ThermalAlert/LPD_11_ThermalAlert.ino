@@ -83,7 +83,7 @@ void loop()
   
   // Use a common equation to convert celsius to Fahrenheit. F = C*9/5 + 32.
   fahrenheit = (celsius * 9.0 / 5.0) + 32.0;
-  Serial.print("Fahrenheit: "); // Print Farenheit temp to serial monitor
+  Serial.print("Fahrenheit: "); // Print Fahrenheit temp to serial monitor
   Serial.println(fahrenheit); 
   // Print a blank line
   Serial.println();       
