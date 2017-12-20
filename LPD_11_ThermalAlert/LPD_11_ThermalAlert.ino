@@ -9,8 +9,11 @@ the hotAlert threshold, the red channel of the tri-color LED will turn on and th
 will shake. If the temperature falls below the coldAlert threshold, the blue channel of the
 tri-color LED will turn on. If the temperature is in the middle of these two thresholds,
 the green channel of the tri-color LED will turn on.
-  
-This example is based on: Thermal alert by 
+
+Follow the tutorial at:
+https://learn.sparkfun.com/tutorials/lilypad-development-board-activity-guide/11-thermal-alert-project
+    
+This example is based on Thermal Alert! example in the Digital Sandbox:
 https://learn.sparkfun.com/tutorials/digital-sandbox-arduino-companion/12-thermal-alert
 
 This code is released under the MIT License (http://opensource.org/licenses/MIT)
