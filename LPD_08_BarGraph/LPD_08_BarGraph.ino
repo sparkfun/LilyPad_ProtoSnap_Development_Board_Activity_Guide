@@ -22,7 +22,7 @@ int sensorPin = A6;
 // We're filling the array with predefined values, but you could do this
 // in your code as well.
 
-int bargraphLED[6] = {5,6,A2,A4,A3};
+int bargraphLED[5] = {5,6,A2,A4,A3};
 
 // The array is indexed from 0 to 4; for example bargraphLED[2] = A2
 

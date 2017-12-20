@@ -9,6 +9,9 @@ the hotAlert threshold, the red channel of the tri-color LED will turn on and th
 will shake. If the temperature falls below the coldAlert threshold, the blue channel of the
 tri-color LED will turn on. If the temperature is in the middle of these two thresholds,
 the green channel of the tri-color LED will turn on.
+
+Follow the tutorial at:
+https://learn.sparkfun.com/tutorials/lilypad-development-board-activity-guide/11-thermal-alert-project
   
 This example is based on: Thermal alert by 
 https://learn.sparkfun.com/tutorials/digital-sandbox-arduino-companion/12-thermal-alert
@@ -95,7 +98,7 @@ void loop()
     delay(500);                    // Wait 1/2 second
     digitalWrite(motor, LOW);      // Then turn the motor off
   }
-  else if (fahrenheit <= coldAlert) // If the temperature falls below the cold threshold:
+  else if (fahrenheit < coldAlert) // If the temperature falls below the cold threshold:
   {
     digitalWrite(RGB_red, HIGH);   // Turn the red LED off
     digitalWrite(RGB_green, HIGH); // Turn the green LED off

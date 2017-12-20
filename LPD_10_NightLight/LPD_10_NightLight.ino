@@ -37,7 +37,7 @@ void setup()
 
   pinMode(lightSensor, INPUT);
 
-  for (x = 0; x <= numLEDs; x++)
+  for (x = 0; x < numLEDs; x++)
   {
     pinMode(LED[x],OUTPUT);
   }
