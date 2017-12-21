@@ -6,7 +6,7 @@ https://www.sparkfun.com/products/11262
 Blink the white LED attached to sew tab 5 on the LilyPad Arduino Simple
 
 Follow the tutorial at:        
-https://learn.sparkfun.com/tutorials/lilypad-protosnap-plus-activity-guide/1-blinking-leds
+https://learn.sparkfun.com/tutorials/lilypad-development-board-activity-guide/1-blink-an-led
 
 This example is based on: Blink by Scott Fitzgerald
 https://www.arduino.cc/en/Tutorial/Blink

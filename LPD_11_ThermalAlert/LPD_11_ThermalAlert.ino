@@ -12,12 +12,10 @@ the green channel of the tri-color LED will turn on.
 
 Follow the tutorial at:
 https://learn.sparkfun.com/tutorials/lilypad-development-board-activity-guide/11-thermal-alert-project
-  
-This example is based on: Thermal alert by 
+    
+This example is based on Thermal Alert! example in the Digital Sandbox:
 https://learn.sparkfun.com/tutorials/digital-sandbox-arduino-companion/12-thermal-alert
-
 This code is released under the MIT License (http://opensource.org/licenses/MIT)
-
 ******************************************************************************/
   
  // Set hot and cold threshold variables to check against. If the temperature reading is above
@@ -83,7 +81,7 @@ void loop()
   
   // Use a common equation to convert celsius to Fahrenheit. F = C*9/5 + 32.
   fahrenheit = (celsius * 9.0 / 5.0) + 32.0;
-  Serial.print("Fahrenheit: "); // Print Farenheit temp to serial monitor
+  Serial.print("Fahrenheit: "); // Print Fahrenheit temp to serial monitor
   Serial.println(fahrenheit); 
   // Print a blank line
   Serial.println();       
@@ -98,7 +96,7 @@ void loop()
     delay(500);                    // Wait 1/2 second
     digitalWrite(motor, LOW);      // Then turn the motor off
   }
-  else if (fahrenheit < coldAlert) // If the temperature falls below the cold threshold:
+  else if (fahrenheit <= coldAlert) // If the temperature falls below the cold threshold:
   {
     digitalWrite(RGB_red, HIGH);   // Turn the red LED off
     digitalWrite(RGB_green, HIGH); // Turn the green LED off
