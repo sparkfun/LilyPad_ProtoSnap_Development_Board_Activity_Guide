@@ -1,7 +1,7 @@
 LilyPad ProtoSnap Development Board Activity Guide
 ====================================
 
--> [![SparkFun LilyPad ProtoSnap Plus](https://cdn.sparkfun.com/assets/learn_tutorials/7/2/1/DevelopmentBoard.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/7/2/1/DevelopmentBoard.jpg) <-
+[![SparkFun LilyPad ProtoSnap Plus](https://cdn.sparkfun.com/assets/learn_tutorials/7/2/1/DevelopmentBoard.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/7/2/1/DevelopmentBoard.jpg)
 
 Arduino sketches to accompany the LilyPad ProtoSnap Development Board Activity Guide
 
